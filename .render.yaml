@@ -5,3 +5,20 @@ services:
     plan: free
     dockerfilePath: ./Dockerfile
     autoDeploy: true
+    envVars:
+      - key: DB_URL
+        value: jdbc:mysql://maglev.proxy.rlwy.net:42039/railway?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+      - key: DB_USER
+        value: root
+      - key: DB_PASSWORD
+        value: QUkGSufBvxscXZGzvSJWtuCLJthpCJKp
+      - key: CLOUDINARY_CLOUD_NAME
+        value: dnrxauvuu
+      - key: CLOUDINARY_API_KEY
+        value: 413839991841514
+      - key: CLOUDINARY_API_SECRET
+        value: 1nTDYBnVtoMe6AzXGK1z52gFhjg
+      - key: MAIL_USERNAME
+        value: mhuynhk1005@gmail.com
+      - key: MAIL_APP_PASSWORD
+        value: eqfp nptx fzhy hcnq
